@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  height: 350px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 12.5%;
+  font-size: 75px;
+  margin: 35px 0 10px 500px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  margin: auto;
+}
+.btn {
+  margin-left: 575px;
+}
+.suit {
+  display: flex;
+}
+.bottom {
+  justify-content: flex-end;
+}
+.number {
+  display: flex;
+  justify-content: center;
+}
